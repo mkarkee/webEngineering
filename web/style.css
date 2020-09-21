@@ -1,0 +1,87 @@
+
+  body {
+      border: 0;
+      margin: 0;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    display: inline;
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;  
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+  #wrapper {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+  }
+
+  div.photo {
+    margin-top: 50px;
+    
+    width: 550px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    transition: transform .6s;
+  }
+
+  .photo:hover {
+      transform: scale(1.2);
+  }
+
+  div.container {
+    padding: 10px;
+  }
+
+  div.card {
+    margin-top: 50px;
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    transition: transform .6s;
+  }
+
+  .card:hover {
+    transform: scale(1.5);
+  }
+  
+  div.header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+  }
+
+  #desc {
+      margin-top: 100px;
+      margin-left: 30%;
+      font-size: xx-large;
+      text-shadow: 2px 2px 1px #FF0000;
+      
+  }
+
+  #soon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2in;
+  }
