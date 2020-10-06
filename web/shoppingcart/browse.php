@@ -69,7 +69,7 @@
         <form action="session.php" method="post">
                 
                 <td>
-                    <img class="watch" src="images/4.webp" alt="watch four"><br>
+                    <img class="watch" src="images/4.jpg" alt="watch four"><br>
                     <label id="watchFour">$249.99</label>
                     <input type="hidden" name="name" value="Watch Four">
                     <input type="hidden" name="price" value="249.99"><br>
