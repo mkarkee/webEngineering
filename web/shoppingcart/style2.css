@@ -1,0 +1,26 @@
+body   {
+    margin: 0;
+    background-color: rgb(45, 45, 45)
+    
+}
+
+h1 {
+    color: black;
+    font-size: 40pt;
+    margin-left: 30%;
+    margin-top: 200px;
+    text-shadow: 1px 1px 2px black;
+}
+
+
+h2 {
+    color: rgb(7, 2, 2);
+    font-size: 30pt;
+    margin-left: 35%;
+    margin-top: 50px;
+    text-shadow: 1px 1px 2px rgb(56, 49, 49);
+}
+
+label {
+	color: black;
+}
