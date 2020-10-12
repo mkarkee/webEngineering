@@ -15,7 +15,7 @@
     </header>
     
     <div id="cart">
-        <a href="cart.php">Go to Cart</a>
+        <a href="cart.php">Go to Cart   </a>
         <?php
             echo count($_SESSION);
         ?>
